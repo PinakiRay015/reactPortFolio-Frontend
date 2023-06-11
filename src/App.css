@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@300&display=swap");
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
+#root {
+  font-family: "Public Sans", sans-serif;
+}
+
+#herotext {
+  background: linear-gradient(
+    to right,
+    #7953cd 20%,
+    #00affa 30%,
+    #0190cd 70%,
+    #764ada 80%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+  background-size: 500% auto;
+  animation: textShine 4s ease-in-out infinite alternate;
+}
+@keyframes textShine {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+.slick-prev::before,
+.slick-next::before {
+  color: black;
+  font-size: 2rem;
+}
+
+.slick-prev {
+  z-index: 9999;
+}
+
+.slick-next::before {
+  margin-left: -30px;
+}
+
+#myCircle1 {
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+#myCircle2 {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+#myCircle3 {
+  top: 50%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+#mylogo {
+  z-index: 2;
+  position: relative;
+}
+
+/* #color1
+{
+  background: linear-gradient(90deg, #ffe082 0%, #26a69a  100%);
+  filter: blur(4.3rem);
+} */
+
+/* #color2
+{
+  background: linear-gradient(90deg, #fcd659 0%, #ff6f87  100%);
+  filter: blur(4.3rem);
+} */
+
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
