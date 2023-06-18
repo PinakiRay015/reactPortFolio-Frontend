@@ -12,7 +12,11 @@ const Contact = () => {
   {
     e.preventDefault();
 
-    let result = await fetch("http://localhost:5000/data" , {
+    toast.warning('Submitting form' , {
+      theme: 'dark'
+    })
+
+    let result = await fetch("https://mern-portfolio-app-api.onrender.com/api/data" , {
       method: 'post',
       body: JSON.stringify({name , email , msg}),
       headers:{
