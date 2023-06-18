@@ -12,7 +12,8 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import 'react-toastify/dist/ReactToastify.css';
 
-export const URL = process.env.BASE_URL;
+export const URL = process.env.REACT_APP_SERVER_URL
+
 
 function App() {
   return (

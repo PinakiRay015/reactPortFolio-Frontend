@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import { URL } from "../App";
 
 const Contact = () => {
 
@@ -16,7 +17,7 @@ const Contact = () => {
       theme: 'dark'
     })
 
-    let result = await fetch("https://mern-portfolio-app-api.onrender.com/api/data" , {
+    let result = await fetch(`${URL}/api/data` , {
       method: 'post',
       body: JSON.stringify({name , email , msg}),
       headers:{
