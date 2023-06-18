@@ -13,7 +13,7 @@ const Contact = () => {
   {
     e.preventDefault();
 
-    toast.warning('Database is under maintainance , It will open by 20th june 2023' , {
+    toast.warning('Form is submitting' , {
       theme: 'dark'
     })
 
