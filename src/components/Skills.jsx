@@ -80,6 +80,14 @@ const Skills = () => {
 
           <div className="md:mt-0 mt-16 md:w-fit font-bold lg:text-xl md:text-xl sm:text-base text-sm">
           <div className="flex gap-20 mb-16 md:justify-start justify-around">
+            <div className="text-green-800">Now</div>
+            <div>
+                <p>Technical Researcher</p>
+                <p className="lg:text-lg font-semibold text-gray-400 ">NISER</p>
+            </div>
+            </div>
+
+          <div className="flex gap-20 mb-16 md:justify-start justify-around">
             <div className="text-green-800">2022</div>
             <div>
                 <p>web developer intern</p>
