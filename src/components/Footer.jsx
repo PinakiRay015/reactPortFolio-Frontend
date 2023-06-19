@@ -20,13 +20,13 @@ const Footer = () => {
             </form>
          </div>
          <div className='md:mt-0 mt-10'>
-            <img className='lg:w-[26rem] m-auto' src="assets/logo-white.png" alt="" />
+            <img className='w-[26rem] m-auto' src="assets/footer-img.png" alt="" />
          </div>
         </div>
 
         <div className='md:flex justify-between items-start'>
             <div className='md:mt-0 mt-10'>
-                <img className='w-[16rem]' src="assets/logo-light.png" alt="" />
+                <img className='w-[26rem]' src="assets/logo-white.png" alt="" />
                 <p className='text-slate-200'>Design the that right web page that move your business</p>
             </div>
             <ul className='text-slate-200 leading-10 md:mt-0 mt-10'>
