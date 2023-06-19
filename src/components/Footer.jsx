@@ -1,9 +1,36 @@
-import React from "react";
+import React , {useState} from "react";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import { URL } from "../App";
 const Footer = () => {
-  const subscribe = () => {
-    toast.error("Not available right now! Sorry", { theme: "dark" });
+
+  const [mail, setMail] = useState("")
+
+  const subscribe = async (e) => {
+    e.preventDefault()
+
+    toast.warning('Form is submitting' , {
+      theme: 'dark'
+    })
+
+    let result = await fetch(`${URL}/api/partner` , {
+      method: 'post',
+      body: JSON.stringify({mail}),
+      headers:
+      {
+        'Content-Type' : 'application/json'
+      }
+    })
+
+    result = await result.json();
+    console.warn(result);
+
+    if(result)
+    {
+      toast.success('Thanks for suscribing😊 , Contacting you shortly' , {theme: 'dark'})
+      setMail("")
+    }
+    
   };
   return (
     <div className="w-full h-fit bg-black p-3">
@@ -23,13 +50,15 @@ const Footer = () => {
                 className="bg-transparent outline-none w-[300px] text-lime-200"
                 type="text"
                 placeholder="enter your email"
+                value={mail}
+                onChange={(e) => setMail(e.target.value)}
               />
-              <p
+              <button type="submit"
                 onClick={subscribe}
                 className="bg-lime-300 px-3 py-1 rounded-md cursor-pointer"
               >
                 Subscribe
-              </p>
+              </button>
             </form>
           </div>
           <div className="md:mt-0 mt-10">
