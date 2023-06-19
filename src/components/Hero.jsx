@@ -20,7 +20,7 @@ const Hero = () => {
         <div className="flex flex-col gap-4">
           <div
             id="color1"
-            className="absolute md:h-96 md:w-96 h-52 w-52 sm:w-72 sm:h-72 rounded-full bottom-10 bg-gradient-to-r from-amber-300 to-green-300 blur-3xl"
+            className="absolute md:h-96 md:w-96 h-52 w-52 sm:w-72 sm:h-72 rounded-full bottom-10 bg-gradient-to-r from-emerald-400 to-cyan-300 blur-3xl"
           ></div>
           <div className="relative">
             <p className="text-green-700 font-medium md:text-3xl sm:text-2xl text-sm py-2">
@@ -63,9 +63,9 @@ const Hero = () => {
       </div>
 
       <div className="relative w-full mt-32 p-15">
-      <div
+        <div
           id="color2"
-          className="absolute right-10 bottom-[-5rem] lg:w-96 lg:h-72 md:w-72 md:h-72 sm:w-60 sm:h-60 h-52 w-52 rounded-full bg-gradient-to-r from-pink-400 to-fuchsia-400 blur-3xl"
+          className="absolute right-10 bottom-[-5rem] lg:w-[40rem] lg:h-72 md:w-72 md:h-72 sm:w-60 sm:h-60 h-52 w-52 rounded-full bg-gradient-to-l from-fuchsia-400 to-purple-300 blur-3xl"
         ></div>
         <div id="mylogo" className="md:max-w-[1440px] max-w-[600px] m-auto">
           <h1

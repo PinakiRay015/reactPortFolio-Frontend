@@ -3,7 +3,11 @@ import React from "react";
 const Categories = () => {
   return (
     <div className="w-full bg-[#e9ecef] h-fit lg:p-20 md:p-10 p-5" id="hobbies">
-      <div className="md:max-w-[1240px] max-w-[600px] m-auto">
+      <div className="relative md:max-w-[1240px] max-w-[600px] m-auto">
+      <div
+            id="color1"
+            className="absolute right-0 bottom-0 top-10 lg:w-[30rem] lg:h-72 md:w-72 md:h-72 sm:w-60 sm:h-60 h-52 w-52 rounded-full bg-gradient-to-r from-emerald-300 to-cyan-200 blur-3xl"
+          ></div>
         <h2 className="lg:text-[56px] md:text-[40px] sm:text-[30px] text-2xl font-black leading-tight py-5">
           Most <span className="text-green-800">Popular Hobbies</span>{" "}
         </h2>

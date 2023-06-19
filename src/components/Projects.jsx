@@ -43,10 +43,10 @@ const Projects = () => {
 
   return (
     <div
-      className="relative w-full lg:p-20 md:p-10 p-5 h-fit bg-[#e9ecef]"
+      className=" w-full lg:p-20 md:p-10 p-5 h-fit bg-[#e9ecef]"
       id="projects"
     >
-      <div className="md:max-w-[1240px] max-w-[600px] m-auto">
+      <div className="relative md:max-w-[1240px] max-w-[600px] m-auto">
           <div id="mycolorbox" className="absolute left-0 bottom-0 md:h-[22rem] md:w-[35rem] h-52 w-52 sm:w-72 sm:h-72 rounded-tr-full bg-gradient-to-r blur-3xl from-sky-300 to-emerald-300"></div>
           <div id="mycolorbox" className="absolute right-0 top-10 md:h-[16rem] md:w-[25rem] h-52 w-52 sm:w-72 sm:h-72 rounded-full bg-rose-300 blur-3xl"></div>
         <div>
