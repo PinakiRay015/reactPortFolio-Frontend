@@ -7,7 +7,7 @@ const Footer = () => {
     toast.error("Not available right now! Sorry" , {theme:"dark"})
   }
   return (
-    <div className='w-full h-fit bg-gradient-to-l from-[#0e1c26] via-[#2a454b] to-[#294861] p-3'>
+    <div className='w-full h-fit bg-black p-3'>
       <ToastContainer closeButton={false}/>
       <div className='md:max-w-[1240px] max-w-[600px] m-auto'>
         <div className='md:flex justify-between'>
@@ -20,7 +20,7 @@ const Footer = () => {
             </form>
          </div>
          <div className='md:mt-0 mt-10'>
-            <img className='w-[26rem] m-auto' src="assets/footer-img.png" alt="" />
+            <img className='lg:w-[26rem] m-auto' src="assets/logo-white.png" alt="" />
          </div>
         </div>
 
