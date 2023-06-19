@@ -82,7 +82,7 @@ const Skills = () => {
           <div className="flex gap-20 mb-16 md:justify-start justify-around">
             <div className="text-green-800">Now</div>
             <div>
-                <p>Technical Researcher</p>
+                <p>Technical Researcher Intern</p>
                 <p className="lg:text-lg font-semibold text-gray-400 ">NISER</p>
             </div>
             </div>
