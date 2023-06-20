@@ -3,7 +3,56 @@
 @import "slick-carousel/slick/slick-theme.css";
 #root {
   font-family: "Public Sans", sans-serif;
+  --bs-body-bg-dark: 37, 36, 34; /* Dark mode background color */
+  --bs-primary-rgb: 58, 134, 255; /* Example primary color */
+  --bd-accent-rgb: 252, 163, 17; /* Example accent color */
+  --bd-violet-rgb: 186, 85, 211; /* Example violet color */
+  --bd-pink-rgb: 230, 57, 70; /* Example pink color */
+  --bd-black-rgb: 0 , 0 , 0;
+  --bs-green-rgb: 45 , 198 , 83
 }
+
+.hero {
+  background-image: 
+    linear-gradient(
+      180deg,
+      rgba(var(--bs-body-bg-dark), 0.01),
+      rgba(var(--bs-body-bg-dark), 1) 85%
+    ),
+    radial-gradient(
+      ellipse at top left,
+      rgba(var(--bs-primary-rgb), 0.5),
+      transparent 50%
+    ),
+    radial-gradient(
+      ellipse at top right,
+      rgba(var(--bd-accent-rgb), 0.3),
+      transparent 50%
+    ),
+    radial-gradient(
+      ellipse at center right,
+      rgba(var(--bd-violet-rgb), 0.4),
+      transparent 60%
+    ),
+    radial-gradient(
+      ellipse at center left,
+      rgba(var(--bd-pink-rgb), 0.6),
+      transparent 70%
+    );
+  background-color: rgb(var(--bs-body-bg-dark));
+}
+
+.footer
+{
+  background-image: 
+  radial-gradient(
+    ellipse at top right,
+    rgba(var(--bd-accent-rgb), 0.3),
+    transparent 80%
+  );
+background-color: rgb(var(--bd-black-rgb));
+}
+
 
 #herotext {
   background: linear-gradient(
@@ -65,6 +114,10 @@
 #mylogo {
   z-index: 2;
   position: relative;
+}
+
+#cbox1 {
+  border-radius: 15% 85% 57% 43% / 10% 33% 67% 90%;
 }
 
 /* #color1

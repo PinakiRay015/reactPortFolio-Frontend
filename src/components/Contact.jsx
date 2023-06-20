@@ -42,7 +42,7 @@ const Contact = () => {
       <div className="md:max-w-[1240px] max-w-[600px] m-auto">
         <div className="text-[56px] font-bold py-5">
           <h2 className="lg:text-[56px] md:text-[40px] sm:text-[30px] text-2xl font-black leading-tight py-5">
-            Let's <span className="text-green-800">Partner Up</span>
+            Let's <span className="text-green-600">Partner Up</span>
           </h2>
         </div>
         <div className="grid md:grid-cols-2 grid-cols-1 h-fit items-start md:gap-0 gap-10">

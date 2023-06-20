@@ -33,7 +33,7 @@ const Footer = () => {
     
   };
   return (
-    <div className="w-full h-fit bg-black p-3">
+    <div className="footer w-full h-fit p-3">
       <ToastContainer closeButton={false} />
       <div
         id="main-footer-box"

@@ -19,7 +19,7 @@ const Navbar = () => {
         <img className="lg:w-48 md:w-36 w-32" src="assets/logo-black.png" alt="" />
         <div className="hidden md:flex items-center">
           <ul className="flex gap-4">
-            <li className="cursor-pointer font-semibold text-md hover:text-green-800">
+            <li className="cursor-pointer font-semibold text-md hover:text-green-600">
               <Link
                 to="hero"
                 spy={true}
@@ -30,7 +30,7 @@ const Navbar = () => {
                 Home
               </Link>
             </li>
-            <li className="cursor-pointer font-semibold text-md hover:text-green-800">
+            <li className="cursor-pointer font-semibold text-md hover:text-green-600">
               <Link
                 to="benefits"
                 spy={true}
@@ -41,7 +41,7 @@ const Navbar = () => {
                 Benefits
               </Link>
             </li>
-            <li className="cursor-pointer font-semibold text-md hover:text-green-800">
+            <li className="cursor-pointer font-semibold text-md hover:text-green-600">
               <Link
                 to="projects"
                 spy={true}
@@ -52,7 +52,7 @@ const Navbar = () => {
                 Projects
               </Link>
             </li>
-            <li className="cursor-pointer font-semibold text-md hover:text-green-800">
+            <li className="cursor-pointer font-semibold text-md hover:text-green-600">
               <Link
                 to="achievements"
                 spy={true}
@@ -63,7 +63,7 @@ const Navbar = () => {
                 Achievements
               </Link>
             </li>
-            <li className="cursor-pointer font-semibold text-md hover:text-green-800">
+            <li className="cursor-pointer font-semibold text-md hover:text-green-600">
               <Link
                 to="hobbies"
                 spy={true}
@@ -74,7 +74,7 @@ const Navbar = () => {
                 Hobbies
               </Link>
             </li>
-            <li className="cursor-pointer font-semibold text-md hover:text-green-800">
+            <li className="cursor-pointer font-semibold text-md hover:text-green-600">
               <Link
                 to="experiences"
                 spy={true}
@@ -85,7 +85,7 @@ const Navbar = () => {
                 Experiences
               </Link>
             </li>
-            <li className="cursor-pointer font-semibold text-md hover:text-green-800">
+            <li className="cursor-pointer font-semibold text-md hover:text-green-600">
               <Link
                 to="reviews"
                 spy={true}
@@ -96,7 +96,7 @@ const Navbar = () => {
                 Reviews
               </Link>
             </li>
-            <li className="cursor-pointer font-semibold text-md hover:text-green-800">
+            <li className="cursor-pointer font-semibold text-md hover:text-green-600">
               <Link
                 to="contact"
                 spy={true}

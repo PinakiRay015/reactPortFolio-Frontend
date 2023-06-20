@@ -5,7 +5,7 @@ const Achievements = () => {
     <div className="w-full lg:p-20 md:p-10 p-5 border h-fit" id="achievements">
       <div className="md:max-w-[1240px] max-w-[600px] m-auto">
           <h2 className="lg:text-[56px] md:text-[40px] sm:text-[30px] text-2xl font-black leading-tight py-5">
-            My <span className="text-green-800">Achievements</span>{" "}
+            My <span className="text-green-600">Achievements</span>{" "}
           </h2>
         <div className="grid md:grid-cols-2">
           <div className="grid grid-flow-col sm:justify-around md:justify-end justify-center gap-20 items-center grid-rows-2">

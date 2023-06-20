@@ -47,7 +47,7 @@ const Review = () => {
   return (
     <div className='w-full h-fit lg:p-20 md:p-10 p-5 border bg-[#e9ecef]' id='reviews'>
       <div className='md:max-w-[1240px] max-w-[600px] m-auto'>
-        <h2 className='lg:text-[56px] md:text-[40px] sm:text-[30px] text-2xl font-black leading-tight py-5'>What They <span className='text-green-800'>Say About Me</span></h2>
+        <h2 className='lg:text-[56px] md:text-[40px] sm:text-[30px] text-2xl font-black leading-tight py-5'>What They <span className='text-green-600'>Say About Me</span></h2>
         <Slider {...settings}>
             <ReviewCard1/>
             <ReviewCard3/>
