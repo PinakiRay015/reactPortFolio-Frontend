@@ -1,141 +1,91 @@
 import React from "react";
 const Skills = () => {
   return (
-    <div className="w-full lg:p-20 md:p-10 p-5 border h-fit" id="experiences">
+    <div className="w-full lg:p-20 md:p-10 p-5 border  h-fit" id="experiences">
       <div className="md:max-w-[1240px] max-w-[600px] m-auto">
         <h2 className="lg:text-[56px] md:text-[40px] sm:text-[30px] text-2xl font-black leading-tight py-5">
           Skills <span className="text-green-600">&</span> Experiences
         </h2>
         <div className="md:flex justify-between w-full h-fit">
           {/* skills section */}
-          <div className="grid lg:grid-cols-4 md:grid-cols-4 grid-cols-3 md:w-1/2 gap-4">
+          <div className="grid lg:grid-cols-4 md:grid-cols-4 grid-cols-3 md:w-1/2 lg:gap-10 md:gap-10 sm:gap-14 gap-16
+          ">
           <div className="flex flex-col items-center">
               <img
-                className="lg:w-20 md:w-16 sm:w-14 w-12"
-                src="assets/htmlskill.png"
+                className="lg:w-14 md:w-14 sm:w-14 w-12"
+                src="assets/html-skill.png"
                 alt=""
               />
-              <p className="text-center">HTML</p>
             </div>
             <div className="flex flex-col items-center">
               <img
-                className="lg:w-20 md:w-16 sm:w-14 w-12"
+                className="lg:w-14 md:w-14 sm:w-14 w-12"
                 src="assets/css-skill.png"
                 alt=""
               />
-              <p className="text-center">css</p>
             </div>
             <div className="flex flex-col items-center">
               <img
-                className="lg:w-20 md:w-16 sm:w-14 w-12"
+                className="lg:w-14 md:w-16 sm:w-16 w-14"
                 src="assets/js-skill.png"
                 alt=""
               />
-              <p className="text-center">javascript</p>
             </div>
             <div className="flex flex-col items-center">
               <img
-                className="lg:w-20 md:w-16 sm:w-14 w-12"
+                className="lg:w-20 md:w-20 sm:w-20 w-16"
                 src="assets/bootstrap-skill.png"
                 alt=""
               />
-              <p className="text-center">Bootstrap</p>
             </div>
             <div className="flex flex-col items-center">
               <img
-                className="lg:w-20 md:w-16 sm:w-14 w-12"
+                className="lg:w-12 md:w-12 sm:w-12 w-10"
+                src="assets/firebase-skill.png"
+                alt=""
+              />
+            </div>
+            <div className="flex flex-col items-center">
+              <img
+                className="lg:w-20 md:w-16 sm:w-16 w-16"
                 src="assets/tailwind-skill.png"
                 alt=""
               />
-              <p className="text-center">Tailwind css</p>
             </div>
-            <div className="flex flex-col items-center">
+            <div>
               <img
-                className="lg:w-20 md:w-16 sm:w-14 w-12"
+                className="lg:w-40 md:w-36 sm:w-36 w-28"
                 src="assets/Express-skill.png"
                 alt=""
               />
-              <p className="text-center">express js</p>
             </div>
             <div className="flex flex-col items-center">
               <img
-                className="lg:w-20 md:w-16 sm:w-14 w-12"
+                className="lg:w-16 md:w-16 sm:w-16 w-14"
                 src="assets/react-skill.png"
                 alt=""
               />
-              <p className="text-center">React js</p>
             </div>
             <div className="flex flex-col items-center">
               <img
-                className="lg:w-20 md:w-16 sm:w-14 w-12"
-                src="assets/mongoDB-skill.png"
+                className="lg:w-8 md:w-7 sm:w-7 w-7"
+                src="assets/mongodb-skill.png"
                 alt=""
               />
-              <p className="text-center">MongoDB</p>
             </div>
             <div className="flex flex-col items-center">
               <img
-                className="lg:w-20 md:w-16 sm:w-14 w-12"
-                src="assets/node-skill.png"
+                className="lg:w-16 md:w-14 sm:w-14 w-12"
+                src="assets/nodejs-skill.png"
                 alt=""
               />
-              <p className="text-center">Node js</p>
             </div>
             <div className="flex flex-col items-center">
               <img
-                className="lg:w-20 md:w-16 sm:w-14 w-12"
-                src="assets/oracle-skill.png"
-                alt=""
-              />
-              <p className="text-center">Oracle</p>
-            </div>
-            <div className="flex flex-col items-center">
-              <img
-                className="lg:w-20 md:w-16 sm:w-14 w-12"
+                className="lg:w-18 md:w-14 sm:w-14 w-12"
                 src="assets/git-skill.png"
                 alt=""
               />
-              <p className="text-center">Git</p>
-            </div>
-            <div className="flex flex-col items-center">
-              <img
-                className="lg:w-20 md:w-16 sm:w-14 w-12"
-                src="assets/lr-skill.png"
-                alt=""
-              />
-              <p className="text-center">Lightroom</p>
-            </div>
-            <div className="flex flex-col items-center">
-              <img
-                className="lg:w-20 md:w-16 sm:w-14 w-12"
-                src="assets/photoshop-skill.png"
-                alt=""
-              />
-              <p className="text-center">Photoshop</p>
-            </div>
-            <div className="flex flex-col items-center">
-              <img
-                className="lg:w-20 md:w-16 sm:w-14 w-12"
-                src="assets/pr-skill.png"
-                alt=""
-              />
-              <p className="text-center">Premeire pro</p>
-            </div>
-            <div className="flex flex-col items-center">
-              <img
-                className="lg:w-20 md:w-16 sm:w-14 w-12"
-                src="assets/ppt-skill.png"
-                alt=""
-              />
-              <p className="text-center">Powerpoint</p>
-            </div>
-            <div className="flex flex-col items-center">
-              <img
-                className="lg:w-20 md:w-16 sm:w-14 w-12"
-                src="assets/word-skill.png"
-                alt=""
-              />
-              <p className="text-center">MS Word</p>
             </div>
           </div>
 

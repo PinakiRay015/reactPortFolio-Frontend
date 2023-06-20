@@ -13,27 +13,39 @@ const Contact = () => {
   {
     e.preventDefault();
 
+    if(!name || !email || !msg)
+    {
+      toast.error('Enter all feilds' , {theme:'dark'});
+      return;
+    }
+
     toast.warning('Form is submitting' , {
       theme: 'dark'
     })
 
-    let result = await fetch(`${URL}/api/data` , {
-      method: 'post',
-      body: JSON.stringify({name , email , msg}),
-      headers:{
-        'Content-Type' : 'application/json'
+    try {
+      let result = await fetch(`${URL}/api/data` , {
+        method: 'post',
+        body: JSON.stringify({name , email , msg}),
+        headers:{
+          'Content-Type' : 'application/json'
+        }
+      })
+  
+      result = await result.json();
+      console.warn(result);
+  
+      if(result)
+      {
+        toast.success('form submitted' , {theme: 'dark'})
+        setName("")
+        setEmail("")
+        setMsg("")
       }
-    })
-
-    result = await result.json();
-    console.warn(result);
-
-    if(result)
-    {
-      toast.success('form submitted' , {theme: 'dark'})
-      setName("")
-      setEmail("")
-      setMsg("")
+    } catch (error) {
+      toast('An error occurred! Please try again later or contact through my Mail ID' , {
+        theme: 'dark'
+      })
     }
   }
 

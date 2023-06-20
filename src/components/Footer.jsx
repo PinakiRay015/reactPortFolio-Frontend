@@ -7,31 +7,39 @@ const Footer = () => {
   const [mail, setMail] = useState("")
 
   const subscribe = async (e) => {
-    e.preventDefault()
-
-    toast.warning('Form is submitting' , {
-      theme: 'dark'
-    })
-
-    let result = await fetch(`${URL}/api/partner` , {
-      method: 'post',
-      body: JSON.stringify({mail}),
-      headers:
-      {
-        'Content-Type' : 'application/json'
-      }
-    })
-
-    result = await result.json();
-    console.warn(result);
-
-    if(result)
-    {
-      toast.success('Thanks for suscribing😊 , Contacting you shortly' , {theme: 'dark'})
-      setMail("")
+    e.preventDefault();
+  
+    if (!mail) {
+      toast.error('Please enter your email', { theme: 'dark' });
+      return;
     }
-    
+  
+    toast.warning('Form is submitting', { theme: 'dark' });
+  
+    try {
+      let response = await fetch(`${URL}/api/partner`, {
+        method: 'post',
+        body: JSON.stringify({ mail }),
+        headers: {
+          'Content-Type': 'application/json',
+        },
+      });
+  
+      const result = await response.json();
+      console.warn(result);
+  
+      if (result) {
+        toast.success('Thanks for subscribing 😊. We will contact you shortly.', {
+          theme: 'dark',
+        });
+        setMail('');
+      }
+    } catch (error) {
+      toast.error('An error occurred. Please try again later.', { theme: 'dark' });
+    }
   };
+  
+
   return (
     <div className="footer w-full h-fit p-3">
       <ToastContainer closeButton={false} />
@@ -84,7 +92,7 @@ const Footer = () => {
               <li>Reviews</li>
             </ul>
             <ul className="text-slate-200 leading-10 md:mt-0 mt-10">
-              <li>Let's chat</li>
+              <li>Let's chat 👇</li>
               <li>pinaki.bpd2001@gmail.com</li>
               <div className="flex justify-between">
                 <a href="https://www.facebook.com/RohanRay0626/">
