@@ -24,7 +24,7 @@ const Card = () => {
         <ul className="flex flex-wrap justify-center items-center gap-3 md:mt-0 mt-10">
           <img className="md:h-8 h-5" src="assets/react.png" alt="" />
           <p className="font-bold">+</p>
-          <img className="md:h-8 h-5" src="assets/tailwindCss.png" alt="" />
+          <img className="md:h-8 h-5" src="assets/tailwind-skill.png" alt="" />
         </ul>
       </div>
         <button onClick={view} className="absolute bottom-0 bg-green-400 mt-8 text-xl py-2 hover:bg-green-600 hover:text-white transition duration-300 w-full font-semibold">

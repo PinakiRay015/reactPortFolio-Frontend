@@ -12,28 +12,28 @@ const Skills = () => {
           ">
           <div className="flex flex-col items-center">
               <img
-                className="lg:w-14 md:w-14 sm:w-14 w-12"
+                className="lg:w-12 md:w-12 sm:w-12 w-10"
                 src="assets/html-skill.png"
                 alt=""
               />
             </div>
             <div className="flex flex-col items-center">
               <img
-                className="lg:w-14 md:w-14 sm:w-14 w-12"
+                className="lg:w-12 md:w-12 sm:w-12 w-10"
                 src="assets/css-skill.png"
                 alt=""
               />
             </div>
             <div className="flex flex-col items-center">
               <img
-                className="lg:w-14 md:w-16 sm:w-16 w-14"
+                className="lg:w-12 md:w-14 sm:w-14 w-12"
                 src="assets/js-skill.png"
                 alt=""
               />
             </div>
             <div className="flex flex-col items-center">
               <img
-                className="lg:w-20 md:w-20 sm:w-20 w-16"
+                className="lg:w-16 md:w-16 sm:w-16 w-14"
                 src="assets/bootstrap-skill.png"
                 alt=""
               />
@@ -75,14 +75,14 @@ const Skills = () => {
             </div>
             <div className="flex flex-col items-center">
               <img
-                className="lg:w-16 md:w-14 sm:w-14 w-12"
+                className="lg:w-14 md:w-12 sm:w-12 w-10"
                 src="assets/nodejs-skill.png"
                 alt=""
               />
             </div>
             <div className="flex flex-col items-center">
               <img
-                className="lg:w-18 md:w-14 sm:w-14 w-12"
+                className="lg:w-16 md:w-12 sm:w-12 w-10"
                 src="assets/git-skill.png"
                 alt=""
               />

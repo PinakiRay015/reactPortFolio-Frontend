@@ -60,8 +60,8 @@ const Contact = () => {
         <div className="grid md:grid-cols-2 grid-cols-1 h-fit items-start md:gap-0 gap-10">
           <div className=" max-w-lg max-h-fit">
             <p className="font-bold text-[#6096ba]">
-              To request a quote or want to meet up for coffee, contact us
-              directly or fill out the form and we will get back to you
+              To request a quote or want to meet up for coffee, contact me
+              directly or fill out the form and I will get back to you
               promptly.
             </p>
             <form className="leading-10 mt-10">
