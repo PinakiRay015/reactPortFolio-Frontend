@@ -69,7 +69,7 @@ const Skills = () => {
             <div className="flex flex-col items-center">
               <img
                 className="lg:w-8 md:w-7 sm:w-7 w-7"
-                src="assets/mongodb-skill.png"
+                src="assets/mongo-skill.png"
                 alt=""
               />
             </div>
