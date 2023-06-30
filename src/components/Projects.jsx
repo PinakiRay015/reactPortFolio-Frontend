@@ -1,6 +1,5 @@
 import React from "react";
 import Slider from "react-slick";
-import ProjectItem from "./Cards/ProjectItem";
 import projectData from "./Cards/ProjectItem";
 
 const Projects = () => {
@@ -56,7 +55,7 @@ const Projects = () => {
           {projectData.map((items) => {
             return (
               <div className="lg:px-10 lg:py-10 sm:px-2 sm:py-10 py-10 px-2">
-                <div className="bg-white drop-shadow-md rounded-t-2xl overflow-hidden border h-[370px]">
+                <div className=" bg-white drop-shadow-md rounded-t-2xl overflow-hidden border h-[370px]">
                   <img
                     className="h-40 w-full object-cover"
                     src={items.src}
