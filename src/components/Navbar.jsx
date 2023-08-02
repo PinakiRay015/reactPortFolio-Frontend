@@ -16,7 +16,13 @@ const Navbar = () => {
   return (
     <div className="w-full fixed bg-[#f3f3ff] drop-shadow-md z-10 top-0 h-[80px] border-b">
       <div className="flex md:max-w-[1240px] max-w-[600px] w-full h-full m-auto justify-between items-center md:px-0 px-4">
-        <img className="lg:w-48 md:w-36 w-32" src="assets/logo-black.png" alt="" />
+        <Link to="hero" spy={true} smooth={true} offset={50} duration={500}>
+          <img
+            className="lg:w-48 md:w-36 w-32 cursor-pointer"
+            src="assets/logo-black.png"
+            alt=""
+          />
+        </Link>
         <div className="hidden md:flex items-center">
           <ul className="flex gap-4">
             <li className="cursor-pointer font-semibold text-md hover:text-green-600">
@@ -136,13 +142,7 @@ const Navbar = () => {
           id="menubar"
           style={{ display: "none" }}
         >
-          <Link
-            to="hero"
-            spy={true}
-            smooth={true}
-            offset={50}
-            duration={500}
-          >
+          <Link to="hero" spy={true} smooth={true} offset={50} duration={500}>
             <li className="hover:bg-gray-300 p-1 cursor-pointer">Home</li>
           </Link>
           <Link

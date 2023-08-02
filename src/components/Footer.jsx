@@ -2,6 +2,7 @@ import React , {useState} from "react";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { URL } from "../App";
+import {Link} from "react-scroll"
 const Footer = () => {
 
   const [mail, setMail] = useState("")
@@ -87,9 +88,33 @@ const Footer = () => {
           </div>
           <div className="flex gap-20">
             <ul className="text-slate-200 leading-10 md:mt-0 mt-10">
-              <li>Projects</li>
-              <li>Hobbies</li>
-              <li>Reviews</li>
+            <Link
+                to="projects"
+                spy={true}
+                smooth={true}
+                offset={10}
+                duration={500}
+              >
+              <li className="cursor-pointer">Projects</li>
+              </Link>
+              <Link
+                to="hobbies"
+                spy={true}
+                smooth={true}
+                offset={10}
+                duration={500}
+              >
+              <li className="cursor-pointer">Hobbies</li>
+              </Link>
+              <Link
+                to="reviews"
+                spy={true}
+                smooth={true}
+                offset={10}
+                duration={500}
+              >
+              <li className="cursor-pointer">Reviews</li>
+              </Link>
             </ul>
             <ul className="text-slate-200 leading-10 md:mt-0 mt-10">
               <li>Let's chat 👇</li>
