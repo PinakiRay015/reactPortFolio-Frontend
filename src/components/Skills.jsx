@@ -47,6 +47,13 @@ const Skills = () => {
             </div>
             <div className="flex flex-col items-center">
               <img
+                className="lg:w-32 md:w-32 sm:w-32 w-28"
+                src="assets/oracle-skill.png"
+                alt=""
+              />
+            </div>
+            <div className="flex flex-col items-center">
+              <img
                 className="lg:w-20 md:w-16 sm:w-16 w-16"
                 src="assets/tailwind-skill.png"
                 alt=""
@@ -84,6 +91,13 @@ const Skills = () => {
               <img
                 className="lg:w-16 md:w-12 sm:w-12 w-10"
                 src="assets/git-skill.png"
+                alt=""
+              />
+            </div>
+            <div className="flex flex-col items-center">
+              <img
+                className="lg:w-16 md:w-12 sm:w-12 w-10"
+                src="assets/github.png"
                 alt=""
               />
             </div>
