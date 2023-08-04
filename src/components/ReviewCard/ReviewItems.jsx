@@ -8,14 +8,6 @@ const reviews = [
     social: "ig_satyam_n.26",
   },
   {
-    id: 1,
-    src: "assets/satyam.jpg",
-    name: "Satyam Nayak",
-    comment:
-      "He appears to be a highly skilled and experienced professional in the retail industry",
-    social: "ig_satyam_n.26",
-  },
-  {
     id: 2,
     src: "assets/priyanshu.jpg",
     name: "Priyanshu Patra",
