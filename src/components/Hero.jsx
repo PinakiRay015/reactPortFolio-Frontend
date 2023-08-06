@@ -20,7 +20,7 @@ const Hero = () => {
         <div className="flex flex-col gap-4">
           <div className="relative">
             <p className="text-green-300 font-medium md:text-3xl sm:text-2xl text-sm py-2">
-              I'm a web developer
+              Hello 👋, I'm Pinaki Sankar Ray
             </p>
             <h1 className="lg:leading-[72px] text-white md:text-4xl lg:text-6xl sm:text-4xl text-xl py-2 font-bold">
               Access To <span className="text-green-600">2000+</span> web
@@ -28,8 +28,7 @@ const Hero = () => {
               templates & projects
             </h1>
             <p className="md:text-lg sm:text-lg text-xs text-gray-400 py-2">
-              Various Versions have evolved over the the years, sometimes by
-              accident
+              I'm a web developer, designer & digital illustrator
             </p>
             <form className="bg-white lg:max-w-[590px] p-2 shadow-lg rounded-md py-2 md:flex justify-between items-center">
               <div>
