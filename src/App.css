@@ -9,7 +9,8 @@
   --bd-violet-rgb: 186, 85, 211; /* Example violet color */
   --bd-pink-rgb: 230, 57, 70; /* Example pink color */
   --bd-black-rgb: 0 , 0 , 0;
-  --bs-green-rgb: 45 , 198 , 83
+  --bs-green-rgb: 174 , 251 , 42;
+  --bs-teal-rgb: 87 , 235 , 222
 }
 
 .hero {
@@ -53,6 +54,15 @@
 background-color: rgb(var(--bd-black-rgb));
 }
 
+.projects
+{
+  background-image: 
+  radial-gradient(
+    ellipse at top right,
+    rgba(var(--bs-green-rgb), 0.2),
+    transparent 80%
+  );  
+}
 
 #herotext {
   background: linear-gradient(
