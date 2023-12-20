@@ -16,7 +16,7 @@ const Contact = () => {
     if(!name || !email || !msg)
     {
       toast.error('Enter all feilds' , {theme:'dark'});
-      return;
+      return; 
     }
 
     toast.warning('Form is submitting' , {

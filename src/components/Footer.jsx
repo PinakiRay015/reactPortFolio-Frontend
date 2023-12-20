@@ -56,7 +56,7 @@ const Footer = () => {
             </p>
             <form className="w-full border-b mt-6 flex justify-between py-2">
               <input
-                className="bg-transparent outline-none w-[300px] text-lime-200"
+                className="bg-transparent outline-none min-w-[170px] w-full text-lime-200"
                 type="text"
                 placeholder="enter your email"
                 value={mail}
@@ -64,7 +64,7 @@ const Footer = () => {
               />
               <button type="submit"
                 onClick={subscribe}
-                className="bg-lime-300 px-3 py-1 rounded-md cursor-pointer"
+                className="bg-lime-300 px-2 py-1 rounded-md cursor-pointer"
               >
                 Subscribe
               </button>
@@ -86,7 +86,7 @@ const Footer = () => {
               Design the right web page that move your business
             </p>
           </div>
-          <div className="flex gap-20">
+          <div className="flex gap-20 justify-between">
             <ul className="text-slate-200 leading-10 md:mt-0 mt-10">
             <Link
                 to="projects"
@@ -118,16 +118,15 @@ const Footer = () => {
             </ul>
             <ul className="text-slate-200 leading-10 md:mt-0 mt-10">
               <li>Let's chat 👇</li>
-              <li>pinaki.bpd2001@gmail.com</li>
-              <div className="flex justify-between">
+              <div className="flex justify-between mt-5">
                 <a href="https://www.facebook.com/RohanRay0626/">
-                <img className="w-7" src="assets/facebook.png" alt="" />
+                <img className="w-5 sm:w-7" src="assets/facebook.png" alt="" />
                 </a>
                 <a href="https://www.instagram.com/_rohan_ray_15/">
-                  <img className="w-7" src="assets/instagram.png" alt="" />
+                  <img className="w-5 sm:w-7" src="assets/instagram.png" alt="" />
                 </a>
                 <a href="https://www.linkedin.com/in/pinaki-sankar-ray-9b6530222/">
-                <img className="w-7" src="assets/linkedin.png" alt="" />
+                <img className="w-5 sm:w-7" src="assets/linkedin.png" alt="" />
                 </a>
               </div>
             </ul>
