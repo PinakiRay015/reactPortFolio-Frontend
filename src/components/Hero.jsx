@@ -10,7 +10,7 @@ const Hero = () => {
 
     setTimeout(() => {
       window.location.href =
-        "https://drive.google.com/file/d/1rdgdCYBqg_tSuzFlgWFDPbpPxNsFujZZ/view?usp=sharing";
+        "https://drive.google.com/file/d/1rdgdCYBqg_tSuzFlgWFDPbpPxNsFujZZ/view?usp=drive_link";
     }, 2000);
   };
   return (
